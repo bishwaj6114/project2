@@ -1,0 +1,271 @@
+* {
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  background-color: #fff8f3;
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
+  background-repeat: no-repeat;
+  background-position: bottom right, left;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 200px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin-left: 50px;
+}
+
+.primary-text {
+  color: #fd6e0a;
+}
+
+.nav-title {
+  font-weight: 800;
+  font-size: 45px;
+}
+
+.btn-primary {
+  background-color: #fd6e0a;
+  width: 100px;
+  height: 44px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  margin: 0 310px;
+}
+
+.banner-sub-title {
+  font-weight: 600;
+  font-size: 45px;
+  margin-bottom: 5px;
+}
+
+.banner-title {
+  font-weight: 700;
+  font-size: 85px;
+  width: 498px;
+  height: 116px;
+  margin-bottom: 20px;
+}
+
+.banner-description {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(117, 117, 117);
+  margin-bottom: 30px;
+}
+
+.btn-secondary {
+  background-color: #fff8f3;
+  width: 100px;
+  height: 44px;
+  border-radius: 5px;
+  border: 1px solid #fd6e0a;
+  color: #fd6e0a;
+  margin-left: 30px;
+}
+/* main section */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.about {
+  margin-top: 130px;
+  border-radius: 10px;
+  background-color: #fff8f3;
+  padding: 130px 150px;
+  text-align: center;
+}
+
+section {
+  text-align: center;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.section-descrription {
+  font-size: 18px;
+  font-weight: 400px;
+  color: #757575;
+  margin-bottom: 30px;
+}
+
+.about-info-container {
+  display: flex;
+  text-align: center;
+  margin-top: 30px;
+  justify-content: space-around;
+}
+
+.about .info-title {
+  font-size: 20px;
+  color: #757575;
+}
+
+.info-description {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #474747;
+}
+
+/* What-i-do */
+.What-i-do {
+  margin-top: 130px;
+  border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
+}
+/* skills */
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin-top: 50px;
+}
+
+.skill {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  padding: 10px;
+}
+
+.skill-title {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 38px;
+  margin-top: 30px;
+}
+
+.skill-description {
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
+}
+
+.resume {
+  margin-top: 130px;
+}
+
+.resume-content {
+  display: flex;
+  margin-top: 113px;
+  gap: 34px;
+  margin-bottom: 50px;
+}
+
+.resume .title {
+  font-weight: 700;
+  font-size: 25px;
+  color: #474747;
+}
+
+.resume .sub-title {
+  color: #757575;
+  font-weight: 600;
+  font-size: 20px;
+}
+.resume .resume-description {
+  color: #757575;
+}
+
+.resume-item {
+  margin-top: 30px;
+}
+
+.contact {
+  display: flex;
+}
+
+.name-input {
+  width: 300px;
+  height: 34px;
+  border-radius: 5px;
+  background: var(--White-Color, #fff);
+  border-color: 0;
+  padding: 0 20px;
+}
+
+.mail-input {
+  width: 300px;
+  height: 34px;
+  border-radius: 5px;
+  background: var(--White-Color, #fff);
+  border-color: 0;
+  margin-top: 20px;
+  padding: 0 20px;
+}
+
+.message-text {
+  margin-top: 20px;
+  width: 300px;
+  height: 184px;
+  border-radius: 5px;
+  background: var(--White-Color, #fff);
+  border-color: 0;
+  padding: 0 20px;
+  color: #474747;
+}
+.contact {
+  background: #fff8f3;
+  justify-content: space-evenly;
+  margin-top: 100px;
+}
+
+.contact-header {
+  padding-left: 100px;
+  margin-top: 50px;
+}
+.form-input {
+  margin-top: 50px;
+}
+
+.name-input{
+  border: 0;
+}
+.mail-input{
+  border: 0;
+}
+.message-text{
+  border: 0;
+}
+.contact-description {
+  color: var(--Dark-02, #474747);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  padding-left: 100px;
+  margin-top: 50px;
+}
+
+.icons {
+  margin-top: 20px;
+  padding-left: 100px;
+}
